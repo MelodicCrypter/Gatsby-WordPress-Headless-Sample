@@ -9,7 +9,7 @@
 </h1>
 
 
-This is just a sample implementation of a headless blogging. But the goal for this example was to only pull (Read) data. I will update this soonest to add C, U, and D of CRUD. But you can fork this and update anytime you want.
+This is just a sample implementation of a headless blogging. And the goal for this example was to only pull (Read) data and put the data on an external frontend.
 
 ## 🚀 Quick start
 
