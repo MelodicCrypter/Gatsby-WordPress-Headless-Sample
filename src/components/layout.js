@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-import Img from 'gatsby-image';
 
 import logo from '../../static/hc_logo.png';
 
@@ -44,7 +43,7 @@ const Layout = ({ location, title, children, allPosts }) => {
                             </a>
 
                             <div className="navbar-dropdown">
-                                {allPosts.map(post => {
+                                {allPosts && allPosts.map(post => {
                                     return (
                                         <Link className="navbar-item" to={`/post/${post.node.slug}`}>
                                             {post.node.title}
