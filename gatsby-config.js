@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: `Headless Gatsby and Wordpress`,
         author: `Hugh Caluscusin`,
-        description: `A sample site for implementing headless blogging for Gatsby and Wordpress`,
+        description: `A sample site for implementing headless blogging for Gatsby and Wordpress.`,
         siteUrl: `https://headless-test.netlify.com/`,
         social: {
             twitter: `MelodicCrypter`,
