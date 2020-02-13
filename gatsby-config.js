@@ -1,11 +1,11 @@
 module.exports = {
     siteMetadata: {
-        title: `Gatsby Starter Blog`,
-        author: `Kyle Mathews`,
-        description: `A starter blog demonstrating what Gatsby can do.`,
-        siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+        title: `Headless Gatsby and Wordpress`,
+        author: `Hugh Caluscusin`,
+        description: `A sample site for implementing headless blogging for Gatsby and Wordpress`,
+        siteUrl: `https://headless-test.netlify.com/`,
         social: {
-            twitter: `kylemathews`,
+            twitter: `MelodicCrypter`,
         },
     },
     plugins: [
@@ -58,13 +58,13 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Gatsby Starter Blog`,
-                short_name: `GatsbyJS`,
+                name: `Headless Gatsby and Wordpress`,
+                short_name: `HGW`,
                 start_url: `/`,
                 background_color: `#ffffff`,
                 theme_color: `#663399`,
                 display: `minimal-ui`,
-                icon: `content/assets/gatsby-icon.png`,
+                icon: `content/assets/hc_logo.png`,
             },
         },
         {
@@ -77,7 +77,7 @@ module.exports = {
             resolve: `gatsby-source-wordpress`,
             options: {
                 // your WordPress source
-                baseUrl: `melodiccrypter.com/headless/`,
+                baseUrl: `melodiccrypter.com/headless`,
                 protocol: `https`,
                 // is it hosted on wordpress.com, or self-hosted?
                 hostingWPCOM: false,
